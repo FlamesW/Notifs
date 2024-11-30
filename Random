@@ -1,0 +1,92 @@
+-- // Do not touch
+task.spawn(function()
+    if not getgenv().AutoPreventDuplicateNotif == true then getgenv().AutoPreventDuplicateNotif = true;
+        while true do task.wait(math.random(100,65));
+            if game:GetService("CoreGui"):FindFirstChild("MacLib") then
+				        getgenv().PlayReminderSound();local Choosing = math.random(1,100);
+                if Choosing <= 75 then 
+                    local Randomizer = math.random(1,26);
+                    if Randomizer == 1 then
+                        getgenv().Notification("From Mommy Flames~","http://www.roblox.com/asset/?id=17767120765","Awh heyyyy :D~","GothamSemibold","Gotham",5);
+                    elseif Randomizer == 2 then
+                        getgenv().Notification("From Mommy Flames~","http://www.roblox.com/asset/?id=17767120765","Be sure to join my discord ya?","GothamSemibold","Gotham",5);
+                    elseif Randomizer == 3 then
+                        getgenv().Notification("From Mommy Flames~","http://www.roblox.com/asset/?id=17767120765","Are you enjoying the script so far? lmk","GothamSemibold","Gotham",5);
+                    elseif Randomizer == 4 then
+                        getgenv().Notification("From Mommy Flames~","http://www.roblox.com/asset/?id=17767120765","Join my server pookie :)","GothamSemibold","Gotham",5);
+                    elseif Randomizer == 5 then
+                        getgenv().Notification("From Mommy Flames~","http://www.roblox.com/asset/?id=17767120765","Wyd lil bro?","GothamSemibold","Gotham",5);
+                    elseif Randomizer == 6 then
+                        getgenv().Notification("From Mommy Flames~","http://www.roblox.com/asset/?id=17767120765","Please gimmie nitro :))))","GothamSemibold","Gotham",5);
+                    elseif Randomizer == 7 then
+                        getgenv().Notification("From Mommy Flames~","http://www.roblox.com/asset/?id=17767120765","Doing fine so far right?","GothamSemibold","Gotham",5);
+                    elseif Randomizer == 8 then
+                        getgenv().Notification("From Mommy Flames~","http://www.roblox.com/asset/?id=17767120765","Aughh.. Good boy/girl~","GothamSemibold","Gotham",5);
+                    elseif Randomizer == 9 then
+                        getgenv().Notification("From Mommy Flames~","http://www.roblox.com/asset/?id=17767120765","Power is a cutie fr~","GothamSemibold","Gotham",5);
+                    elseif Randomizer == 10 then
+                        getgenv().Notification("From Mommy Flames~","http://www.roblox.com/asset/?id=17767120765","Astra is a top tier Femboy ong~","GothamSemibold","Gotham",5);
+                    elseif Randomizer == 11 then
+                        getgenv().Notification("From Mommy Flames~","http://www.roblox.com/asset/?id=17767120765","Do you like the script? Leave a feedback!~","GothamSemibold","Gotham",5);
+                    elseif Randomizer == 12 then
+                        getgenv().Notification("From Mommy Flames~","http://www.roblox.com/asset/?id=17767120765","Reminding "..game.Players.LocalPlayer.DisplayName.." to go outside.","GothamSemibold","Gotham",5);
+                    elseif Randomizer == 13 then
+                        getgenv().Notification("From Mommy Flames~","http://www.roblox.com/asset/?id=17767120765","Reminding "..game.Players.LocalPlayer.DisplayName.." to touch grass.","GothamSemibold","Gotham",5);
+                    elseif Randomizer == 14 then
+                        getgenv().Notification("From Mommy Flames~","http://www.roblox.com/asset/?id=17767120765","Hey "..game.Players.LocalPlayer.DisplayName..", Wyd pookie?","GothamSemibold","Gotham",5);
+                    elseif Randomizer == 15 then
+                        getgenv().Notification("From Mommy Flames~","http://www.roblox.com/asset/?id=17767120765","Remember, Flame's Hub on top!~","GothamSemibold","Gotham",5);
+                    elseif Randomizer == 16 then
+                        getgenv().Notification("From Mommy Flames~","http://www.roblox.com/asset/?id=17767120765","Enjoy using my script? I worked alot on it :>","GothamSemibold","Gotham",5);
+                    elseif Randomizer == 17 then
+                        getgenv().Notification("From Mommy Flames~","http://www.roblox.com/asset/?id=17767120765","Reminding you to get something to eat :)","GothamSemibold","Gotham",5);
+                    elseif Randomizer == 18 then
+                        getgenv().Notification("From Mommy Flames~","http://www.roblox.com/asset/?id=17767120765","Reminding you to drink some water :)","GothamSemibold","Gotham",5);
+                    elseif Randomizer == 19 then
+                        getgenv().Notification("From Mommy Flames~","http://www.roblox.com/asset/?id=17767120765","Let it autofarm, Go masturbate or smth~","GothamSemibold","Gotham",5);
+                    elseif Randomizer == 20 then
+                        getgenv().Notification("From Mommy Flames~","http://www.roblox.com/asset/?id=17767120765","Oh...","GothamSemibold","Gotham",3);
+                    elseif Randomizer == 21 then
+                        getgenv().Notification("From Mommy Flames~","http://www.roblox.com/asset/?id=17767120765","NEVER BACK DOWN, NEVER GIVE UP!","GothamSemibold","Gotham",5);
+                    elseif Randomizer == 22 then
+                        getgenv().Notification("From Mommy Flames~","http://www.roblox.com/asset/?id=17767120765","Erm... What de sigma!?","GothamSemibold","Gotham",5);
+                    elseif Randomizer == 23 then
+                        getgenv().Notification("From Mommy Flames~","http://www.roblox.com/asset/?id=17767120765","Helo... Flames here~","GothamSemibold","Gotham",5);
+                    elseif Randomizer == 24 then
+                        getgenv().Notification("From Mommy Flames~","http://www.roblox.com/asset/?id=17767120765","Truly a Mastermind at his/her work.","GothamSemibold","Gotham",5);
+                    elseif Randomizer == 25 then
+                        getgenv().Notification("From Mommy Flames~","http://www.roblox.com/asset/?id=17767120765","This is a reminder to take ur dog for a walk","GothamSemibold","Gotham",5);
+                    elseif Randomizer == 26 then
+                        getgenv().Notification("From Mommy Flames~","http://www.roblox.com/asset/?id=17767120765","Since autofarm is on, Lets go to the gym?","GothamSemibold","Gotham",5);
+                    end
+                else local Randomizer = math.random(1,12); -- // Friends stuff
+                    if Randomizer == 1 then
+                        getgenv().Notification("From edp445~","http://www.roblox.com/asset/?id=14581017443","Are you there cupcake?","GothamSemibold","Gotham",5);
+                    elseif Randomizer == 2 then
+                        getgenv().Notification("From edp445~","http://www.roblox.com/asset/?id=14581017443","Ur 12 right? Lets meet up ;)","GothamSemibold","Gotham",5);
+                    elseif Randomizer == 3 then
+                        getgenv().Notification("From edp445~","http://www.roblox.com/asset/?id=14581017443","Ur 12? Idc, Shake that ass!!!","GothamSemibold","Gotham",5);
+                    elseif Randomizer == 4 then
+                        getgenv().Notification("From edp445~","http://www.roblox.com/asset/?id=14581017443","Ive come to pick you up my cupcake ;)","GothamSemibold","Gotham",5);
+                    elseif Randomizer == 5 then
+                        getgenv().Notification("From edp445~","http://www.roblox.com/asset/?id=14581017443","Ew, your 18, too old for me. I like em young","GothamSemibold","Gotham",5);
+                    elseif Randomizer == 6 then
+                        getgenv().Notification("From Astra~","http://www.roblox.com/asset/?id=15274979267","I love Mommy Flames :3","GothamSemibold","Gotham",5);
+                    elseif Randomizer == 7 then
+                        getgenv().Notification("From Boy Named Gocock~","http://www.roblox.com/asset/?id=17787583625","I never said anythign gay in my life","GothamSemibold","Gotham",5);
+                    elseif Randomizer == 8 then
+                        getgenv().Notification("From Olemad~","http://www.roblox.com/asset/?id=74020701930849","Future hollywood actor over here","GothamSemibold","Gotham",5);
+                    elseif Randomizer == 9 then
+                        getgenv().Notification("From Aionions~","http://www.roblox.com/asset/?id=3493248673","I like to yap alot","GothamSemibold","Gotham",5);
+                    elseif Randomizer == 10 then
+                        getgenv().Notification("From Ivy~","http://www.roblox.com/asset/?id=12439093829","Eat some chicken nuggies fr","GothamSemibold","Gotham",5);
+                    elseif Randomizer == 11 then
+                        getgenv().Notification("From Astra~","http://www.roblox.com/asset/?id=15274979267","I love Mommy Flames :3","GothamSemibold","Gotham",5);
+                    elseif Randomizer == 12 then
+                        getgenv().Notification("From Dustin Henderson~","http://www.roblox.com/asset/?id=10321340774","Keep farming do you copy?","GothamSemibold","Gotham",5);
+                    end
+                end
+            end
+        end
+    end
+end)
