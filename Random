@@ -59,7 +59,7 @@ task.spawn(function()
                     elseif Randomizer == 26 then
                         getgenv().Notification("From Mommy Flames~","http://www.roblox.com/asset/?id=17767120765","Since autofarm is on, Lets go to the gym?","GothamSemibold","Gotham",5);
                     end
-                else local Randomizer = math.random(1,12); -- // Friends stuff
+                else local Randomizer = math.random(1,13); -- // Friends stuff
                     if Randomizer == 1 then
                         getgenv().Notification("From edp445~","http://www.roblox.com/asset/?id=14581017443","Are you there cupcake?","GothamSemibold","Gotham",5);
                     elseif Randomizer == 2 then
@@ -84,6 +84,8 @@ task.spawn(function()
                         getgenv().Notification("From Astra~","http://www.roblox.com/asset/?id=15274979267","I love Mommy Flames :3","GothamSemibold","Gotham",5);
                     elseif Randomizer == 12 then
                         getgenv().Notification("From Dustin Henderson~","http://www.roblox.com/asset/?id=10321340774","Keep farming do you copy?","GothamSemibold","Gotham",5);
+                    elseif Randomizer == 13 then
+                        getgenv().Notification("From Prowler Goku~","http://www.roblox.com/asset/?id=15612623821","i've heard you're pretty strong...","GothamSemibold","Gotham",5);
                     end
                 end
             end
