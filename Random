@@ -2,7 +2,7 @@
 task.spawn(function()
     if not getgenv().AutoPreventDuplicateNotif == true then getgenv().AutoPreventDuplicateNotif = true;
         while true do task.wait(math.random(100,65));
-            if game:GetService("CoreGui"):FindFirstChild("MacLib") then
+            if game:GetService("CoreGui"):FindFirstChild("MacLib") and getgenv().Settings["General"]["StreamingMode"] == false then
 		getgenv().PlayReminderSound();local Choosing = math.random(1,100);
                 if Choosing <= 75 then 
                     local Randomizer = math.random(1,26);
