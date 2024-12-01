@@ -1,7 +1,7 @@
 -- // Do not touch
 task.spawn(function()
     if not getgenv().AutoPreventDuplicateNotif == true then getgenv().AutoPreventDuplicateNotif = true;
-        while true do task.wait(math.random(75,125));
+        while true do task.wait(math.random(253,125));
             if game:GetService("CoreGui"):FindFirstChild("MacLib") and getgenv().Settings["General"]["StreamingMode"] == false then
 		getgenv().PlayReminderSound();local Choosing = math.random(1,100);
                 if Choosing <= 75 then 
@@ -90,40 +90,5 @@ task.spawn(function()
                 end
             end
         end
-    end
-end)
-
--- // Jumpscare
-task.spawn(function()
-    while true do task.wait(math.random(290,650));
-        local RandomJumpscare = {14367645385,10928251207,12121857746,10099121186};
-        task.spawn(function()
-            local Scary = "http://www.roblox.com/asset/?id=85271883712040";
-            local Sound = Instance.new("Sound");
-            Sound.Name = "Sound";
-            Sound.SoundId = Scary;
-            Sound.Volume = 10;
-            Sound.Looped = false;
-            Sound.Archivable = false;
-            Sound.Parent = game.Workspace;
-            Sound:Play();
-        end);
-
-        task.spawn(function()
-            local ScreenGui = Instance.new("ScreenGui");
-            ScreenGui.Name = "Scare";
-            ScreenGui.Parent = game.CoreGui;
-            local ImageLabel = Instance.new("ImageLabel");
-            ImageLabel.Parent = ScreenGui;
-            ImageLabel.BackgroundColor3 = Color3.fromRGB(255,255,255);
-            ImageLabel.BorderColor3 = Color3.fromRGB(0,0,0);
-            ImageLabel.BorderSizePixel = 0;
-            ImageLabel.Position = UDim2.new(0,0,0,0);
-            ImageLabel.Size = UDim2.new(1,0,1,0);
-            ImageLabel.Image = "http://www.roblox.com/asset/?id="..RandomJumpscare[math.random(1,#RandomJumpscare)];
-            ImageLabel.ImageTransparency = 0;
-            task.wait(5);
-            ScreenGui:Destroy();
-        end);
     end
 end)
