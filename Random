@@ -1,6 +1,6 @@
 -- // Do not touch
 task.spawn(function()
-	while true do task.wait(math.random(45,60));
+	while true do task.wait(math.random(55,65));
 		if game:GetService("CoreGui"):FindFirstChild("MacLib") then
 		    getgenv().PlayReminderSound();
 			local Randomizer = math.random(1,25);
